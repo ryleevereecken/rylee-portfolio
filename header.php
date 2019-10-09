@@ -25,8 +25,43 @@
         font-family: sans-serif;
         font-size: 30px;
     }
+    .site-title a {
+        color: black;
+        text-decoration: none;
+        font-weight: lighter;
+    }
+    .custom-logo-link {
+        display: block;
+        text-align: center;
+        margin-top: 25px;
+    }
     .menu-main-navigation-container li {
         padding: 15px;
+        border: 1px solid red;
+        min-width: 200px;
+        min-height: 50px;
+        text-align: center;
+    }
+    .menu-main-navigation-container a {
+        color: black;
+        transition: 0.2s;
+    }
+    .menu-main-navigation-container a:hover {
+        color: blueviolet;
+    }
+    .site-title {
+        text-align: center;
+    }
+    .custom-logo {
+        width: 100px;
+    }
+    .menu-main-navigation-container {
+        text-align: center;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    .menu-main-navigation-container ul {
+        display: inline-block;
     }
 </style>
 
