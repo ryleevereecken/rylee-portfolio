@@ -65,16 +65,6 @@
     }
 </style>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/trianglify/2.0.0/trianglify.min.js"></script>
-<script>
-    var background = document.getElementById('page');
-    var pattern = Trianglify({
-        width: window.innerWidth,
-        height: window.innerHeight
-    });
-    background.appendChild(pattern.canvas());
-</script>
-
 <body <?php body_class(); ?>>
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'rylee_portfolio' ); ?></a>
